@@ -1,0 +1,17 @@
+{
+  "name": "byzapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "babel": "babel --presets es2015 main.js -o build/main.bundle.js",
+    "start": "http-server",
+    "test": "babel --presets es2015 main.js -o build/main.bundle.js && node build/main.bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.0",
+    "web3": "^1.2.1"
+  }
+}
